@@ -1,0 +1,81 @@
+#miyazaki {
+  position: absolute;
+  top: 100%;
+  right: 1%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.nav-bar {
+  position: fixed;
+  display: flex;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 10%;
+  width: 100%;
+  height: 8%;
+  z-index: 3;
+  transition: 0.5s all;
+}
+
+.scroll {
+  background-color: #403f80ff;
+  transition: 0.5s all;
+}
+
+.nav-bar-item {
+  width: auto;
+  height: 100%;
+  padding: 1%;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: auto;
+}
+
+.nav-bar-item:hover {
+  background-color: #90218cff;
+  color: white;
+  transition: 0.5s all;
+}
+
+.logo {
+  position: fixed;
+  right: 10%;
+  top: 0.5  %;
+  height: 100%;
+  width: auto;
+  font-family: sans-serif;
+}
+
+.image {
+  width: 100%;
+  margin: 0;
+}
+
+.part {
+  font-family: sans-serif;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 30%;
+  text-align: justify;
+  background-color: #43c777ff;
+  color: white;
+  line-height: 1.5;
+}
+
+.footer {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: sans-serif;
+  text-align: justify;
+  color: white;
+  line-height: 1.5;
+  background-color: #4f9282ff;
+}
